@@ -1,0 +1,101 @@
+body {
+    width: 100%;
+    display: block;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500, 800;
+    font-size: 16px;
+    background: hsl(47, 88%, 63%);
+}
+
+.main-card {
+    width: 384px;
+    height: 522px;
+    margin: 0 auto;
+    background: hsl(0, 0%, 100%);
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 9px 9px 0px 0px rgb(0, 0, 0);
+}
+
+.svg-img {
+   width: 100%;
+   max-height: 200px;
+   margin-bottom: 50px;
+}
+
+.svg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;  
+}
+
+.text-content {
+    text-align: left;
+    margin: 24px 0;
+}
+
+.btn button {
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:  hsl(47, 94%, 50%);
+}
+
+.pub-date p {
+    font-size: 0.97rem;
+    color: hsl(0, 0%, 7%);
+    margin-top: 12px;
+}
+
+.content-title h1 {
+    font-size: 1.6rem;
+    color: hsl(0, 0%, 7%);
+}
+
+.content-title a {
+    text-decoration: none;
+}
+
+.content-title a :hover {
+    color: hsl(47, 94%, 50%);
+}
+
+.article p {
+    color: hsl(0, 0%, 42%);
+    font-size: 1.1rem;
+}
+
+.author {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.userpic {
+    width: 52px;
+    height: 52px;
+}
+
+.user-name {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.attribution { 
+    margin-top: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
