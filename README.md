@@ -56,6 +56,6 @@ I want to focuse more on responsive web desigining.
 
 ## Author
 
-- Website - [Kambere Gilbert Silver](https://www.linkedin.com/in/kambere-gilbert-silver/)
+- LinkedIn - [Kambere Gilbert Silver](https://www.linkedin.com/in/kambere-gilbert-silver/)
 - Frontend Mentor - [@thaArcadeGuy](https://www.frontendmentor.io/profile/thaArcadeGuy)
 - Twitter - [@thaArcadeGuy](https://www.x.com/thaArcadeGuy)
