@@ -1,6 +1,7 @@
 body {
     width: 100%;
-    display: block;
+    position: relative;
+    height: 100vh;
     font-family: "Figtree", sans-serif;
     font-weight: 500, 800;
     font-size: 16px;
@@ -10,7 +11,10 @@ body {
 .main-card {
     width: 384px;
     height: 522px;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: hsl(0, 0%, 100%);
     padding: 24px;
     border-radius: 20px;
@@ -91,7 +95,9 @@ button:hover {
 }
 
 .attribution { 
-    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     font-size: 11px; 
     text-align: center; 
 }
